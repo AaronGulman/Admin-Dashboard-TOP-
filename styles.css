@@ -18,7 +18,7 @@ main{
 	border: 1px solid;
 	display: grid;
 	grid-template:auto 4fr/ 1fr 1fr;
-	background: linear-gradient(to right, rgb(59, 58, 58), rgb(57, 55, 55));;
+	background: linear-gradient(to left, #080635, #002745);
 	color: #ffffff;
 
 	
@@ -31,10 +31,11 @@ main{
 	border: 1px solid red;
 	height: 100vh;
 	width: 95%;
-	background: linear-gradient(to right, rgb(0,0,0), rgb(57, 55, 55));
+	background: linear-gradient(to left, #080635, #002745);
 	color: #ffffff;
 	font-style: bold;
-	font-size: 25px;
+	font-size: 20px;
+	
 	
 }
 
@@ -48,7 +49,7 @@ header{
 	align-items: center;
 	text-align: center;
 	border-radius: 10px 10px 150px 150px;
-	background: linear-gradient(to right, rgb(59, 58, 58), rgb(57, 55, 55));;
+	background: linear-gradient(to right, #000000, #060d13);
 
 
 }
@@ -78,10 +79,11 @@ header{
 
 .content{
 	display: grid;	
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: 1fr auto;
+	grid-auto-rows: 1fr;
+
 	grid-auto-rows: 1fr;
 	gap:2rem 1rem;
-	background: linear-gradient(to right, rgb(59, 58, 58), rgb(57, 55, 55));;
 	color: #ffffff;
 	padding: 15px;
 
@@ -91,14 +93,24 @@ header{
 
 .projects{
 	display: grid;
-	grid-template-rows: auto 1fr 1fr;
-	grid-auto-flow: column;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 10px;
 	border: 1px solid rgb(242, 0, 255);
 	border-radius: 20px;
 	padding: 10px;
+	background: linear-gradient(to right,rgb(35, 33, 33),rgb(41, 38, 38));
 
 
 
+}
+
+.project{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	object-fit: cover;
+	flex-wrap: wrap;
 }
 
 .rightDivs{
@@ -138,12 +150,14 @@ input{
 	border-radius: 10px;
 }
 
-img {
-	width: 50px;
-	height: 50px;
+#profilePic{
 	border-radius: 50%;
 }
 
+.proPic{
+	width: 100%;
+	height: 100%;
+}
 button{
 	border-radius: 10px 10px 10px 100px;
 	background: linear-gradient(to right, rgb(0, 0, 0), rgb(110, 68, 209));
@@ -156,13 +170,27 @@ a{
 	text-decoration: none;
 }
 
+a svg {
+	vertical-align:sub;
+    }
+    
+
+ul{
+	margin:0;
+	padding: 0;
+	
+}
+
 ul li{
 	margin-bottom: 10%;
-
+	padding: 10px;
+	text-shadow: 2px 4px 10px rgb(0, 0, 0);
+	
 }
 
 h1 {
 	text-align: center;
+
 }
 
 #searchIcon{
@@ -171,4 +199,12 @@ h1 {
 
 .changeColor{
 	fill: #ffffff;	
+}
+
+li:hover{
+	background: red;
+	border-radius: 0px 100px 100px 0px;
+	white-space: nowrap;
+	text-shadow: 2px 4px 10px rgb(0, 0, 0);
+
 }
