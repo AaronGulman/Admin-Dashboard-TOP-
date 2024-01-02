@@ -30,12 +30,14 @@ main{
 	grid-template-rows: auto auto 1fr;
 	border: 1px solid red;
 	height: 100vh;
-	width: 100%;
+	width: 95%;
 	background: linear-gradient(to right, rgb(0,0,0), rgb(57, 55, 55));
 	color: #ffffff;
 	font-style: bold;
 	font-size: 25px;
+	
 }
+
 
 header{
 	display: grid;
@@ -49,6 +51,12 @@ header{
 	background: linear-gradient(to right, rgb(59, 58, 58), rgb(57, 55, 55));;
 
 
+}
+
+.inputBox {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 5%;
 }
 
 
@@ -146,4 +154,21 @@ a{
 	color: #ffffff;
 	list-style: none;
 	text-decoration: none;
+}
+
+ul li{
+	margin-bottom: 10%;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+#searchIcon{
+	fill: #ffffff;
+}
+
+.changeColor{
+	fill: #ffffff;	
 }
