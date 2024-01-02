@@ -1,0 +1,69 @@
+body,
+html{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	
+}
+
+main{
+	display: flex;
+}
+
+
+
+.content{
+	display: flex;	
+	flex-direction: column;
+	width:80%;
+}
+
+.sidebar{
+	border: 1px solid red;
+	height: 100vh;
+	width: 20%;
+}
+
+.header{
+	border: 1px solid rgb(13, 255, 0);
+	width: 100vw;
+	height: 5%;
+}
+
+.welcome{
+	border: 1px solid rgb(4, 0, 255);
+	width: 100%;
+	height: 5%;
+		
+}
+
+
+.projects{
+	border: 1px solid rgb(242, 0, 255);
+	width: 50%;
+	height: 90%;
+
+}
+
+.rightDivs{
+	display: flex;
+	border: 1px solid black;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	
+}
+
+.announcements{
+	border: 1px solid rgb(0, 255, 179);
+	width: 100%;
+	height: 50%;
+}
+
+.trending{
+	border: 1px solid rgb(255, 153, 0);
+	width: 100%;
+	height: 50%;
+}
