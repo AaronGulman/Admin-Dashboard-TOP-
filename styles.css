@@ -249,3 +249,13 @@ input:focus{
 	border:5px solid black;
 	transition: 0.5s;
 }
+
+.icon{
+	width:10%;
+	height:15%;
+	border-radius: 50%;
+	box-shadow: 
+	2px 2px 2px rgba(255,255,255),
+	-2px -2px 2px rgba(255,255,255);
+
+}
