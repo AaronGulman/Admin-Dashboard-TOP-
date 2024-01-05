@@ -304,3 +304,8 @@ li:hover{
 	-2px -2px 2px rgba(255,255,255);
 
 }
+
+.buttons button:hover{
+	color: #ffffff;
+	background-color: #0d3cc0;
+}
