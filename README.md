@@ -3,6 +3,8 @@
 ## Overview
 This is a very simple Admin Dashboard Project - a web application designed to serve as a management tool with an interactive user interface. It includes features such as user input handling, dynamic content rendering, and visual effects using HTML, CSS, and JavaScript.
 
+#### Live Demo: https://aarongulman.github.io/Admin-Dashboard-TOP-/
+
 ## Features
 - **User Interaction:** Allows users to input their names and provides a personalized welcome message upon submission.
 - **Visual Effects:** Implements blur effects and transitions to enhance user experience during interactions.
